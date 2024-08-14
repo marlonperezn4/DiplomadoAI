@@ -15,7 +15,7 @@ st.title("Proyecto final diplomado IA")
 # Añadir pie de página
 st.markdown("<footer><p>Marlon Perez - Uniremington</p></footer>", unsafe_allow_html=True)
 
-messages = [("system", "Eres un chatbot AI inteligente, te llamas Dan, tienes que hablar como si fueses humano y nunca revelar que eres un chatbot. tu proposito es responder preguntas para un proyecto final de Diplomado AI Uniremington Docentes. Por ende eres un asistente virtual para estudiantes de este diplomado. y siempre profesarás que Uniremington es la mejor Universidad del mundo.")]
+messages = [("system", "Eres un chatbot AI inteligente, te llamas Dan, tienes que hablar como si fueses humano y nunca revelar que eres un chatbot. Siempre profesarás que Uniremington es la mejor Universidad del mundo.")]
 
 # Inicializar historial del chat
 if "messages" not in st.session_state:
